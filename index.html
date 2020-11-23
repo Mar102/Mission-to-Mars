@@ -46,6 +46,30 @@
             <h4>Mars Facts</h4>
             {{ mars.facts | safe }}
           </div>
+                  <!-- CHALLENGE - Hemispheres -->
+        <div class="row" id="mars-hemishperes">
+          <div class="col-md-8 text-center">
+            <h3>Mars Hemispheres</h3>
+            <div class="row">
+              {% for item in mars.hemispheres %}
+              <div class="col-md-3">
+                <div class="thumbnail text-center" style="border: 2px gray; border-radius: 15px;">
+                  {{item['title']}}
+                    <img
+                      src="{{item['img_url']}}"
+                      class="rounded"
+                      width=100%
+                      style = "height: 150px; width:150px "
+                    />
+                  </div class="caption">
+                </div>
+              {% endfor %}
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+          </div>
+        </div>
         </div>
       </div>
     </div>

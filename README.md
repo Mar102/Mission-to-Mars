@@ -9,6 +9,9 @@
 * Create an HTML/CSS portfolio to showcase projects.
 * Use Bootstrap components to polish and customize the portfolio.
 
+### Portfolio ###
+![](https://github.com/Mar102/Mission-to-Mars/blob/main/Images/portfolio_image.jpg)
+
 ## Resources ## 
 * Data Source: https://mars.nasa.gov/news; https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
 * Software: Python 3.7.6, Anaconda 4.8.3, Jupyter Notebook 6.0.3, Visual Studio Code, 1.46.1, mongo 4.4.0
